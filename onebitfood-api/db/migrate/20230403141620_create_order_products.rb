@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class CreateOrderProducts < ActiveRecord::Migration[7.0]
+class CreateOrderProducts < ActiveRecord::Migration[6.1]
   def change
     create_table :order_products do |t|
       t.integer :quantity
